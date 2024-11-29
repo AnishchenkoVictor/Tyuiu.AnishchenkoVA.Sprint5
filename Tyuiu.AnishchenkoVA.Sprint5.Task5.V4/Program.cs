@@ -9,7 +9,7 @@ namespace Tyuiu.AnishchenkoVA.Sprint5.Task5.V4
             Console.Title = "Спринт #5 | Выполнил: Анищенко В. А. | ИИПБ-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Чтение данных из текстового файла                                 *");
+            Console.WriteLine("* Тема: Чтение набора данных из текстового файла                          *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #4                                                              *");
             Console.WriteLine("* Выполнил: Анищенко Виктор Александрович | ИИПБ-24-2                     *");
