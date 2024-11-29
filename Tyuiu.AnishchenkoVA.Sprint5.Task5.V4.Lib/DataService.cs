@@ -13,7 +13,10 @@ namespace Tyuiu.AnishchenkoVA.Sprint5.Task5.V4.Lib
                 string line;
                 while((line = sr.ReadLine()) != null)
                 {
-                    res = res * Convert.ToDouble(line);
+                    if (Convert.ToDouble(line) % 1 > 0)
+                    {
+                        res = res * Convert.ToDouble(line);
+                    }
                 }
             }
             res = Math.Round(res,3);
