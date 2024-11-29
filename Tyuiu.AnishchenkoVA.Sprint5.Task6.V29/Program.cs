@@ -1,5 +1,5 @@
-﻿using Tyuiu.AnishchenkoVA.Sprint5.Task5.V4.Lib;
-namespace Tyuiu.AnishchenkoVA.Sprint5.Task5.V4
+﻿using Tyuiu.AnishchenkoVA.Sprint5.Task6.V29.Lib;
+namespace Tyuiu.AnishchenkoVA.Sprint5.Task6.V29
 {
     internal class Program
     {
@@ -10,20 +10,19 @@ namespace Tyuiu.AnishchenkoVA.Sprint5.Task5.V4
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Тема: Чтение данных из текстового файла                                 *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #29                                                             *");
             Console.WriteLine("* Выполнил: Анищенко Виктор Александрович | ИИПБ-24-2                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask5V4.txt                      *");
-            Console.WriteLine("* в котором есть набор значений. Найти произведение всех вещественных     *");
-            Console.WriteLine("* исел в файле. Полученный результат вывести на консоль.                  *");
-            Console.WriteLine("* У вещественных значений округлить до трёх знаков после запятой.         *");
+            Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask6V29.txt                     *");
+            Console.WriteLine("* в котором есть набор символьных данных.                                 *");
+            Console.WriteLine("* Найти количество слов длиной семь символов в заданной строке.           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = $@"C:\Users\mifis\source\repos\Tyuiu.AnishchenkoVA.Sprint5\DataSprint5\InPutDataFileTask5V4.txt";
+            string path = $@"C:\Users\mifis\source\repos\Tyuiu.AnishchenkoVA.Sprint5\DataSprint5\InPutDataFileTask6V29.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
