@@ -20,7 +20,7 @@ namespace Tyuiu.AnishchenkoVA.Sprint5.Task1.V2.Lib
             string stry;
             for (int x = startValue; x <= stopValue; x++)
             {
-                s = ((2 * x - 3) / (Math.Cos(x) - 2 * x)) + 5 * x - 6;
+                s = Math.Round(((2 * x - 3) / (Math.Cos(x) - 2 * x)) + 5 * x - 6, 2);
                 stry = Convert.ToString(s);
 
                 if (x != stopValue)
