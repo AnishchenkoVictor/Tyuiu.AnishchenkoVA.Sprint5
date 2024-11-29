@@ -7,8 +7,19 @@ namespace Tyuiu.AnishchenkoVA.Sprint5.Task5.V4.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            
-            return -757312956.615;
+            double res = 1;
+            using (StreamReader sr = new StreamReader(path))
+            {
+                string line;
+                while((line = sr.ReadLine()) != null)
+                {
+                    if (Math.Abs(Convert.ToDouble(line)) % 1 > 0)
+                    {
+                        res = res * Convert.ToDouble(line);
+                    }
+                }
+            }
+            return Math.Round(res,3);
         }
     }
 }
