@@ -1,4 +1,4 @@
-namespace Tyuiu.AnishchenkoVA.Sprint5.Task0.V19.Test
+namespace Tyuiu.AnishchenkoVA.Sprint5.Task2.V9.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -6,7 +6,7 @@ namespace Tyuiu.AnishchenkoVA.Sprint5.Task0.V19.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\Users\mifis\AppData\Local\Temp\tmptdb3s3.tmp";
+            string path = @"C:\Users\mifis\AppData\Local\Temp\tmph0mcfa.tmp";
             FileInfo FI = new FileInfo(path);
             bool fe = FI.Exists;
             bool z = true;
