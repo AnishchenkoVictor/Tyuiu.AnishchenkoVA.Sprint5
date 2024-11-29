@@ -8,7 +8,7 @@ namespace Tyuiu.AnishchenkoVA.Sprint5.Task5.V4.Lib
         public double LoadFromDataFile(string path)
         {
             
-            return 37678991975.491;
+            return -757312956.615;
         }
     }
 }
